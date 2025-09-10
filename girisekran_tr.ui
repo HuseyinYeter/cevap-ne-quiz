@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(228, 151, 255, 255), stop:0.55 rgba(235, 130, 203, 255), stop:0.98 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 0));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(228, 151, 255, 255), stop:0.945274 rgba(235, 130, 203, 255), stop:0.98 rgba(255, 255, 255, 255), stop:1 rgba(0, 0, 0, 0));
+
+font: 28pt &quot;Arial&quot;;
+color:white;
+</string>
+   </property>
+   <property name="text">
+    <string>Cevap Ne?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="yarismaciadi">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>290</y>
+     <width>431</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	background: #F8EAFF;
+	border: 2px solid #c821ff;
+	border-radius: 10px;
+	color:blackf;
+	font-family: Arial;
+	font: 20px;
+	
+	
+}
+
+QLineEdit:focus{
+	border: 2px solid #ffaa00;
+	
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font:20pt &quot;Arial&quot;;
+color: rgb(200, 33, 255);</string>
+   </property>
+   <property name="text">
+    <string>Yarışmacı Adı</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yarismayabasla">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>370</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background: #F8EAFF;
+	border: 2px solid #c821ff;
+	border-radius: 10px;
+	color:blackf;
+	font-family: Arial;
+	font: 20px;
+	
+	
+}
+
+QPushButton:hover{
+	border: 2px solid #ffaa00;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Yarışmaya Başla</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="muziksecenek">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>520</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+	background: #F8EAFF;
+	border: 2px solid #c821ff;
+	border-radius: 10px;
+	color:blackf;
+	font-family: Arial;
+	font: 20px;
+	
+	
+}
+
+QCheckBoxt:focus{
+	border: 2px solid #ffaa00;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Müzik</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>yarismayabasla</tabstop>
+  <tabstop>yarismaciadi</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
